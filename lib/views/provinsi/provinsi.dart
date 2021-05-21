@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import '../../services/api.dart';
 import '../hospital/hospital.dart';
 import 'caseProv.dart';
 
@@ -86,16 +85,15 @@ class Listprovinsi extends StatelessWidget {
                                   Padding(
                                     padding: const EdgeInsets.only(left: 10),
                                     child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
                                       children: [
-                                        Padding(
-                                          padding:
-                                              const EdgeInsets.only(top: 20),
-                                          child: Text(
-                                            "Jumlah Kasus Per Daerah",
-                                            style: TextStyle(
-                                                fontSize: 18,
-                                                fontWeight: FontWeight.bold),
-                                          ),
+                                        Text(
+                                          "Jumlah Kasus Per Daerah",
+                                          style: TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.white),
                                         ),
                                         SizedBox(height: 5),
                                       ],
@@ -139,18 +137,16 @@ class Listprovinsi extends StatelessWidget {
                                   Padding(
                                     padding: const EdgeInsets.only(left: 10),
                                     child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
                                       children: [
-                                        Padding(
-                                          padding:
-                                              const EdgeInsets.only(top: 15),
-                                          child: Text(
-                                            "RS Rujukan Covid 19",
-                                            style: TextStyle(
+                                        Text(
+                                          "RS Rujukan Covid 19",
+                                          style: TextStyle(
                                               fontSize: 18,
                                               fontWeight: FontWeight.bold,
-                                            ),
-                                            textAlign: TextAlign.center,
-                                          ),
+                                              color: Colors.white),
+                                          textAlign: TextAlign.center,
                                         ),
                                         SizedBox(height: 5),
                                       ],
